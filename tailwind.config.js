@@ -1,0 +1,41 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['source/**/*.{blade.php,blade.md,md,html,vue,js}',],
+  theme: {
+    extend: {
+      colors: {
+        grey_50: "#F8F8FC",
+        grey_100: "#EEEEF6",
+        grey_200: "#D9D9E4",
+        grey_300: "#B4B4C1",
+        grey_400: "#94949C",
+        grey_500: "#75757B",
+        grey_600: "#48484E",
+        grey_700: "#2A2A31",
+        grey_800: "#0E0E14",
+        grey_900: "#030305",
+        purple_50: "#FBFAFF",
+        purple_100: "#EDE9FF",
+        purple_200: "#C1B7FB",
+        purple_300: "#7160D8",
+        purple_400: "#5C4CBE",
+        purple_500: "#4737A9",
+        purple_600: "#2D1E87",
+        purple_700: "#0E0257",
+        yellow_50: "#FFFDF7",
+        yellow_100: "#FFF9E1",
+        yellow_200: "#FFF3C5",
+        yellow_300: "#FFE892",
+        yellow_400: "#FFDC5B",
+        yellow_500: "#FFD331",
+        yellow_600: "#FFCB0B",
+        yellow_700: "#F3BF00",
+        accent_orange_1: "#FFA417",
+        accent_orange_2: "#F15623",
+        accent_cream_1: "#FFE8CC",
+        accent_cream_2: "#FFD198",
+      }
+    },
+  },
+  plugins: [],
+}

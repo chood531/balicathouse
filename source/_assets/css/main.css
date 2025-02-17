@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Phluff';
+        src: url('/assets/font/Phluff/Phluff-Black.woff2') format('woff2');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Phluff';
+        src: url('/assets/font/Phluff/Phluff-Bold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Phluff';
+        src: url('/assets/font/Phluff/Phluff-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Phluff';
+        src: url('/assets/font/Phluff/Phluff-SemiBold.woff2') format('woff2');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Phluff';
+        src: url('/assets/font/Phluff/Phluff-Medium.woff2') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Phluff';
+        src: url('/assets/font/Phluff/Phluff-ExtraBold.woff2') format('woff2');
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-BlackItalic.woff2') format('woff2');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-Bold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-Black.woff2') format('woff2');
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-BoldItalic.woff2') format('woff2');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-Light.woff2') format('woff2');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-Italic.woff2') format('woff2');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-Medium.woff2') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-LightItalic.woff2') format('woff2');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-MediumItalic.woff2') format('woff2');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Satoshi';
+        src: url('/assets/font/Satoshi/Satoshi-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+}
+
+@layer components {
+    .font-phluff {
+        font-family: 'Phluff', sans-serif;
+    }
+
+    .font-satoshi {
+        font-family: 'Satoshi', sans-serif;
+    }
+
+    .display-2xl {
+        @apply -tracking-[1%] font-semibold text-3xl sm:text-5xl lg:text-6xl leading-[48px] sm:leading-[60px] lg:leading-[84px];
+    }
+
+    .display-xl {
+        @apply -tracking-[1%] font-semibold text-2xl sm:text-[44px] lg:text-[56px] leading-10 sm:leading-[56px] lg:leading-[78px];
+    }
+
+    .display-lg {
+        @apply -tracking-[1%] font-semibold text-4xl lg:text-5xl leading-[52px] lg:leading-[68px];
+    }
+
+    .display-md {
+        @apply -tracking-[1%] font-semibold text-2xl lg:text-[40px] leading-10 lg:leading-[56px];
+    }
+
+    .display-sm {
+        @apply -tracking-[1%] font-semibold text-xl lg:text-[32px] leading-9 lg:leading-[44px];
+    }
+
+    .display-xs {
+        @apply -tracking-[1%] font-semibold text-lg sm:text-xl lg:text-2xl leading-7 lg:leading-9;
+    }
+
+    .display-2xs {
+        @apply -tracking-[1%] font-semibold text-base sm:text-lg lg:text-xl leading-6 lg:leading-8;
+    }
+
+    .display-3xs {
+        @apply -tracking-[1%] font-semibold text-sm lg:text-base leading-5 lg:leading-6;
+    }
+
+    .text-lg-bold {
+        @apply font-bold text-sm sm:text-lg lg:text-xl leading-6 lg:leading-8;
+    }
+
+    .text-lg-medium {
+        @apply font-medium text-sm sm:text-lg lg:text-xl leading-6 lg:leading-8;
+    }
+
+    .text-lg-reguler {
+        @apply font-normal text-base sm:text-lg lg:text-xl leading-6 lg:leading-8;
+    }
+
+    .text-md-bold {
+        @apply font-bold text-sm lg:text-base leading-6;
+    }
+
+    .text-md-medium {
+        @apply font-medium text-sm lg:text-base leading-6;
+    }
+
+    .text-md-reguler {
+        @apply font-normal text-sm lg:text-base leading-6;
+    }
+
+    .text-sm-bold {
+        @apply font-bold text-sm leading-5;
+    }
+
+    .text-sm-medium {
+        @apply font-medium text-sm leading-5;
+    }
+
+    .text-sm-reguler {
+        @apply font-normal text-sm leading-5;
+    }
+
+    .text-xs-bold {
+        @apply font-bold text-xs leading-4;
+    }
+
+    .text-xs-medium {
+        @apply font-medium text-xs leading-4;
+    }
+
+    .text-xs-reguler {
+        @apply font-normal text-xs leading-4;
+    }
+}
+
+body {
+    font-family: "Phluff";
+}
