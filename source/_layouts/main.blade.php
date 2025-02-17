@@ -11,10 +11,10 @@
         <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
         <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/favicon/site.webmanifest">        
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicon/site.webmanifest">        
     </head>
     <body>
         <header class="z-40 h-20 fixed left-0 top-0 w-full bg-purple_400 border-b border-white/10">
