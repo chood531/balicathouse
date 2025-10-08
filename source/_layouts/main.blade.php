@@ -86,7 +86,7 @@
                     <img class="w-20 object-contain grayscale brightness-0 invert" src="/assets/images/logo.svg" alt="Logo white">
                 </a>
                 <div class="w-full flex flex-col gap-10 lg:flex-row items-center justify-between lg:justify-between font-satoshi">
-                    <div class="order-3 lg:order-1 text-sm-reguler">&copy; {{ date('Y') }} Kubu Cat Bali, All rights reserved.</div>
+                    <div class="order-3 lg:order-1 text-sm-reguler">&copy; {{ date('Y') }} Friends of the Bali Cat House - Registered 501(c)(3) Charity.</div>
                     <div class="order-1 lg:order-2 flex items-center gap-6 text-sm-medium">
                         <a href="/about-us">About Us</a>
                         <a href="/donate">Donation</a>

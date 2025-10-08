@@ -10,6 +10,9 @@
             <div>About Kubu Cat Bali</div>
         </div>
         <div class="font-satoshi text-lg-reguler mb-6 sm:mb-10">We’re dedicated to rescuing and caring for abandoned cats in Bali. Support our mission to provide food, medical care, and a safe home for each one.</div>
+
+        <div class="font-satoshi text-lg-reguler mb-6 sm:mb-10"><strong>Friends of the Bali Cat House is a registered 501(c)(3) Charity</strong></div>
+        
         <div class="flex items-center justify-center gap-4">
             <a href="#" class="hidden block px-6 py-3 lg:py-4 text-white border border-white rounded-full display-3xs">Learn More</a>
         </div>

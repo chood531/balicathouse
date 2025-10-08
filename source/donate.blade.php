@@ -20,7 +20,11 @@
     <div class="text-grey_900 mb-14 md:mb-0">
         <div class="mb-14 lg:mb-[100px]">
             <div class="mb-6 lg:mb-8 display-md">Challenge</div>
-            <div class="mb-12 lg:mb-[60px] font-satoshi text-grey_700 text-lg-reguler">Small charitable organizations are finding it difficult to raise money for day-to-day operations to achieve their mission. Recognizing that long-term sustainability would require a way to supplement the donations given each year by people like you, Hart’s founders developed an innovative model to help fund the important work being done in Bali to rescue, care for, and find adopting homes for pets.</div>
+            <div class="mb-12 lg:mb-[20px] font-satoshi text-grey_700 text-lg-reguler">Small charitable organizations are finding it difficult to raise money for day-to-day operations to achieve their mission. Recognizing that long-term sustainability would require a way to supplement the donations given each year by people like you, Hart’s founders developed an innovative model to help fund the important work being done in Bali to rescue, care for, and find adopting homes for pets.
+            </div>
+            <div class="mb-12 lg:mb-[60px] font-satoshi text-grey_700 text-lg-reguler">
+                <strong>Friends of the Bali Cat House is a registered 501(c)(3) Charity</strong>
+            </div>
         </div>
         <div class="space-y-6 lg:space-y-8">
             <div class="display-md">Our Work</div>
