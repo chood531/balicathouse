@@ -1,0 +1,13 @@
+{
+  "bucket_name": "cathousebali-site",
+  "cloudfront_distribution_id": "E8HEW7IJ54FEL",
+  "aws_region": "ap-southeast-3",
+  "dist_folder": "build_production",
+  "redirects": [
+    {
+      "from": "/old-path",
+      "to": "/new-path",
+      "code": 301
+    }
+  ]
+}
