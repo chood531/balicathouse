@@ -4,19 +4,27 @@
     <div class="grid grid-cols-2 gap-x-6 gap-y-5 mb-6 text-md-reguler">
         <div>
             <div class="mb-1 text-md-bold">Bank name</div>
-            <div>Choice Financial Group</div>
+            <div>Community Federal Savings Bank</div>
         </div>
         <div>
-            <div class="mb-1 text-md-bold">Swift code</div>
-            <div>CHFGUS44021</div>
+            <div class="mb-1 text-md-bold">Bank address</div>
+            <div>89-16 Jamaica Ave, Woodhaven, NY, 11421, United States</div>
         </div>
         <div>
-            <div class="mb-1 text-md-bold">Routing Number</div>
-            <div>091311229</div>
+            <div class="mb-1 text-md-bold">Routing number (ACH &amp; wire)</div>
+            <div>026073150</div>
         </div>
         <div>
             <div class="mb-1 text-md-bold">Account number</div>
-            <div>202423453861</div>
+            <div>822001061044</div>
+        </div>
+        <div>
+            <div class="mb-1 text-md-bold">Account type</div>
+            <div>Checking</div>
+        </div>
+        <div>
+            <div class="mb-1 text-md-bold">Swift/BIC (international)</div>
+            <div>CMFGUS33</div>
         </div>
         <div>
             <div class="mb-1 text-md-bold">Account holder name</div>
