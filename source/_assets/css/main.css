@@ -4,54 +4,6 @@
 
 @layer base {
     @font-face {
-        font-family: 'Phluff';
-        src: url('/assets/font/Phluff/Phluff-Black.woff2') format('woff2');
-        font-weight: 900;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Phluff';
-        src: url('/assets/font/Phluff/Phluff-Bold.woff2') format('woff2');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Phluff';
-        src: url('/assets/font/Phluff/Phluff-Regular.woff2') format('woff2');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Phluff';
-        src: url('/assets/font/Phluff/Phluff-SemiBold.woff2') format('woff2');
-        font-weight: 600;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Phluff';
-        src: url('/assets/font/Phluff/Phluff-Medium.woff2') format('woff2');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Phluff';
-        src: url('/assets/font/Phluff/Phluff-ExtraBold.woff2') format('woff2');
-        font-weight: 800;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
         font-family: 'Satoshi';
         src: url('/assets/font/Satoshi/Satoshi-BlackItalic.woff2') format('woff2');
         font-weight: 900;
@@ -133,8 +85,8 @@
 }
 
 @layer components {
-    .font-phluff {
-        font-family: 'Phluff', sans-serif;
+    .font-display {
+        font-family: 'Fredoka', sans-serif;
     }
 
     .font-satoshi {
@@ -223,5 +175,5 @@
 }
 
 body {
-    font-family: "Phluff";
+    font-family: 'Fredoka', sans-serif;
 }
